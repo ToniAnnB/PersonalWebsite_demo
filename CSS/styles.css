@@ -1,0 +1,209 @@
+body {
+  background-color: #c6e3fd;
+  border: 0;
+  color: #4c4a3b;
+  font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+a {
+  color: #131311;
+  text-decoration: none;
+}
+a:hover {
+  color: whitesmoke;
+}
+#top_container {
+  border: 0;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+#cloud {
+  border: 0;
+  height: 40vh;
+  left: 25vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#top_container h1 {
+  border: 0;
+  color: #8c8490;
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#top_container p {
+  border: 0;
+  font-family: "Poiret One", cursive;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cloud2 {
+  border: 0;
+  bottom: 10vh;
+  height: 60vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 29vw;
+}
+#middle_container {
+  border: 0;
+  height: 250vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#middle_container .flower_container {
+  background-image: url(../images/flower5.png);
+  height: 150vh;
+  padding-bottom: 70vh;
+}
+#middle_container .introduction {
+  height: 100vh;
+  position: relative;
+}
+#middle_container .intro1 {
+  color: #8c8490;
+  font-size: 3rem;
+  margin: 16px 0 0 0;
+}
+#middle_container .intro2 {
+  font-size: 2rem;
+  left: 25vw;
+  margin: 2px 0 0 0;
+  position: relative;
+  width: 50vw;
+}
+#propic {
+  height: 55vh;
+}
+#middle_container .color {
+  color: #8c8490;
+}
+
+#middle_container .skills {
+  height: 100vh;
+  padding: 0 auto;
+  position: relative;
+}
+#middle_container .myskill {
+  margin: 0;
+  padding-top: 15vh;
+}
+#middle_container .skill-row1 {
+  left: 15vw;
+  position: relative;
+  width: 60vw;
+}
+
+#middle_container .skill1 {
+  text-align: left;
+  width: 50vw;
+}
+#middle_container .skill-row2 {
+  border: 0;
+  left: 25vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 60vw;
+}
+
+#middle_container .skill2 {
+  text-align: right;
+  width: 50vw;
+}
+
+#dev {
+  border: 0;
+  float: left;
+  height: 25vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 25vh;
+}
+#plant {
+  border: 0;
+  float: right;
+  height: 25vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 25vh;
+}
+#plant_tissue {
+  border: 0;
+  float: left;
+  height: 25vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 25vh;
+}
+#plating {
+  border: 0;
+  float: right;
+  height: 25vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 25vh;
+}
+#middle_container .lower_middle {
+  background-image: url(../images/grass2.png);
+  border: 0;
+  height: 20vh;
+  margin: 0;
+  padding-bottom: 10vh;
+  position: relative;
+}
+#footer {
+  background-image: url(../images/soil.jpg);
+  border: 0;
+  height: 37vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#footer .footer_cols {
+  display: grid;
+  font-size: 14px;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+}
+#footer .footer_cols h2 {
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#footer .footer_cols ul {
+  list-style: none;
+}
+#footer .footer_cols ul li:first-child {
+  border-bottom: #564e45 solid 1px;
+  color: #131311;
+  font-size: 1.2rem;
+  padding-bottom: 0;
+}
+#footer .footer p {
+  border: 0;
+  color: #564e45;
+  left: 38vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 25vw;
+}
